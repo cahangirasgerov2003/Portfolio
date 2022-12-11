@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-body{
+body {
   background-image: url("../img/concrete_seamless.png");
 }
 header {
@@ -61,11 +61,63 @@ main {
   height: 420px;
   width: 100%;
 }
-.main-center{
-    width: 70%;
-    margin: 0 auto;
-    height: 390px;
-    background-color: white;
+.main-center {
+  width: 70%;
+  margin: 0 auto;
+  height: 390px;
+}
+#section1 {
+  width: 65%;
+  height: 390px;
+  background-color: white;
+  float: left;
+  margin-right: 5%;
+  padding-left: 3%;
+}
+.section1-info {
+  width: 94%;
+  height: 80px;
+  font: bold 22px tahoma;
+  color: rgb(50, 184, 184);
+  padding-top: 30px;
+  border-bottom: 3px solid rgb(204, 204, 204);
+  margin-bottom: 25px;
+}
+.section1-img {
+  width: 94%;
+  height: 310px;
+  font-size: 16px;
+  color: rgb(105, 105, 105);
+  line-height: 30px;
+  letter-spacing: 0.5px;
+}
+.section1-img span {
+  display: block;
+}
+.section1-img img {
+  height: 120px;
+  margin-right: 20px;
+  float: left;
+}
+#section2 {
+  width: 30%;
+  height: 180px;
+  background-color: white;
+  padding-top: 25px;
+  padding-left: 30px;
+  float: left;
+}
+.section2-info {
+  color: rgb(50, 184, 184);
+  font: bold 18px tahoma;
+  width: 90%;
+  border-bottom: 2px solid rgba(220, 220, 220, 0.445);
+  height: 40px;
+}
+#section2 img {
+  width: 52px;
+  object-fit: cover;
+  margin-top: 20px;
 }
 .footer {
   font-size: 10px;
