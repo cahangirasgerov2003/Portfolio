@@ -16,6 +16,7 @@ header {
   border-bottom: 2px solid rgb(206, 202, 202);
   border-top: 1px solid rgb(206, 202, 202);
   height: 70px;
+  z-index: 100;
 }
 .header-info {
   width: 50%;
@@ -57,8 +58,12 @@ header {
   border-left: 1px solid gainsboro;
   margin-left: 14px;
 }
-main {
+#aboutmain {
   height: 420px;
+  width: 100%;
+}
+#portfoliomain {
+  height: 700px;
   width: 100%;
 }
 .main-center {
@@ -66,9 +71,22 @@ main {
   margin: 0 auto;
   height: 390px;
 }
+.portfolio-main-center {
+  width: 70%;
+  margin: 0 auto;
+  height: 670px;
+}
 #section1 {
   width: 65%;
   height: 390px;
+  background-color: white;
+  float: left;
+  margin-right: 5%;
+  padding-left: 3%;
+}
+#portfolio-section1 {
+  width: 65%;
+  height: 670px;
   background-color: white;
   float: left;
   margin-right: 5%;
@@ -99,6 +117,42 @@ main {
   margin-right: 20px;
   float: left;
 }
+.portfolio-section1-img img {
+  width: 100%;
+  height: 100%;
+}
+.toptext {
+  width: 44%;
+  float: left;
+  object-fit: cover;
+  position: relative;
+}
+.toptext1,
+.toptext2 {
+  margin: 5px 26px 0 0;
+}
+.toptext2 ~ div {
+  margin: 30px 26px 0 0;
+}
+.toptext h2 {
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  background-color: rgb(50, 184, 184);
+  bottom: 0;
+  margin-bottom: 5%;
+  font: bold 16px arial;
+  color: white;
+  text-align: center;
+  padding: 7%;
+  box-shadow: 0 0 10px 1px rgba(50, 184, 184, 0.623);
+  transition-property: transform;
+  transition-duration: 2s;
+  cursor: pointer;
+}
+.toptext h2:hover {
+  transform: rotate(180deg);
+}
 #section2 {
   width: 30%;
   height: 180px;
@@ -115,7 +169,7 @@ main {
   height: 40px;
 }
 #section2 img {
-  width: 52px;
+  width: 27%;
   object-fit: cover;
   margin-top: 20px;
 }
@@ -129,4 +183,5 @@ main {
   color: rgba(228, 225, 225, 0.74);
   height: 90px;
   padding-top: 40px;
+  clear: both;
 }
