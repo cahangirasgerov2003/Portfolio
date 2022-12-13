@@ -66,6 +66,10 @@ header {
   height: 700px;
   width: 100%;
 }
+#contactmain {
+  width: 100%;
+  height: 500px;
+}
 .main-center {
   width: 70%;
   margin: 0 auto;
@@ -75,6 +79,11 @@ header {
   width: 70%;
   margin: 0 auto;
   height: 670px;
+}
+.contact-main-center {
+  width: 70%;
+  margin: 0 auto;
+  height: 470px;
 }
 #section1 {
   width: 65%;
@@ -87,6 +96,14 @@ header {
 #portfolio-section1 {
   width: 65%;
   height: 670px;
+  background-color: white;
+  float: left;
+  margin-right: 5%;
+  padding-left: 3%;
+}
+#contact-section1 {
+  width: 65%;
+  height: 470px;
   background-color: white;
   float: left;
   margin-right: 5%;
@@ -152,6 +169,44 @@ header {
 }
 .toptext h2:hover {
   transform: rotate(180deg);
+}
+.form {
+  width: 94%;
+  height: 335px;
+}
+.form label {
+  display: block;
+  font: normal 15px tahoma;
+  color: rgb(126, 122, 122);
+  margin-bottom: 7px;
+}
+.form form input {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 15px;
+  border: 1px solid rgb(126, 122, 122);
+  color: rgb(126, 122, 122);
+  font: normal 12px tahoma;
+  padding-left: 10px;
+}
+.form textarea {
+  width: 100%;
+  height: 130px;
+  margin-bottom: 16px;
+  border: 1px solid rgb(126, 122, 122);
+  color: rgb(126, 122, 122);
+  font: normal 12px tahoma;
+  padding-left: 10px;
+}
+#button {
+  background-color: rgb(3, 99, 27);
+  width: 30%;
+  cursor: pointer;
+  color: white;
+  border: 1px solid rgb(33, 155, 33);
+  font: normal 16px tahoma;
+  text-align: center;
+  padding: 6px 0 8px 0;
 }
 #section2 {
   width: 30%;
